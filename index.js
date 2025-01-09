@@ -143,10 +143,10 @@ run().catch(console.dir);
 
 
 
-// app.get('/', (req, res) => {
-//   res.send("This is Rent car Server")
-// })
+app.get('/', (req, res) => {
+  res.send("This is Rent car Server")
+})
 
-// app.listen(port, () => {
-//   console.log(`server is running ${port}`)
-// })
+app.listen(port, () => {
+  console.log(`server is running ${port}`)
+})
